@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Changez en '/karite-du-faso/' pour GitHub Pages
+  base: '/sheas-project/',
   build: {
     outDir: 'dist',
     sourcemap: false,
