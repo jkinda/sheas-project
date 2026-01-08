@@ -11,8 +11,9 @@ const Hero = () => {
                 loop
                 muted
                 playsInline
+                poster="assets/images/story.png"
             >
-                <source src="assets/videos/hero.mp4" type="video/mp4" />
+                <source src="./assets/videos/hero.mp4" type="video/mp4" />
                 Votre navigateur ne supporte pas la vidéo.
             </video>
 
