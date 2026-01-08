@@ -4,7 +4,7 @@ const Benefits = () => (
     <section id="bienfaits" className="py-20 px-6 bg-amber-900 text-white" aria-labelledby="bienfaits-title">
         <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-                <p className="text-amber-300 font-medium mb-2 uppercase tracking-wider">Pourquoi le karité</p>
+                <p className="text-amber-300 font-medium mb-2 uppercase tracking-wider">Pourquoi le beurre de karité</p>
                 <h2 id="bienfaits-title" className="text-3xl md:text-4xl font-serif mb-4">
                     Un trésor de bienfaits
                 </h2>
@@ -28,7 +28,7 @@ const Benefits = () => (
 
             {/* Utilisations */}
             <div className="mt-16 bg-amber-800/30 rounded-2xl p-8">
-                <h3 className="text-xl font-semibold mb-6 text-center">Comment utiliser le karité ?</h3>
+                <h3 className="text-xl font-semibold mb-6 text-center">Comment utiliser le beurre de karité ?</h3>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
                     <div>
                         <p className="text-3xl mb-2">🧴</p>

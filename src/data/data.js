@@ -6,7 +6,7 @@ export const produits = [
     nom: "L'Essentiel – Petite Boîte",
     description: "L'hydratation pure à emporter partout. Idéal pour le sac à main.",
     prix: 2000,
-    image: "/assets/images/product-small.png",
+    image: "assets/images/product-small.png",
     alt: "Petit pot de beurre de karité Shea's",
     badge: "Best-seller",
     ingredients: "100% Beurre de Karité brut (Butyrospermum Parkii Butter), non raffiné, grade A.",
@@ -17,7 +17,7 @@ export const produits = [
     nom: "Le Quotidien – Moyenne Boîte",
     description: "Le format parfait pour votre routine beauté quotidienne.",
     prix: 3000,
-    image: "/assets/images/product-medium.png",
+    image: "assets/images/product-medium.png",
     alt: "Pot moyen de beurre de karité Shea's",
     badge: "Populaire",
     ingredients: "100% Beurre de Karité brut (Butyrospermum Parkii Butter), non raffiné, grade A.",
@@ -28,7 +28,7 @@ export const produits = [
     nom: "Le Familial – Grande Boîte",
     description: "Un pot généreux pour prendre soin de toute la famille.",
     prix: 5000,
-    image: "/assets/images/product-large.png",
+    image: "assets/images/product-large.png",
     alt: "Grand pot de beurre de karité Shea's",
     badge: "Économique",
     ingredients: "100% Beurre de Karité brut (Butyrospermum Parkii Butter), non raffiné, grade A.",
@@ -39,7 +39,7 @@ export const produits = [
     nom: "Le Trésor – Coffret Intégral",
     description: "Les 3 formats réunis – Le cadeau parfait pour ceux que vous aimez.",
     prix: 8000,
-    image: "/assets/images/product-set.png",
+    image: "assets/images/product-set.png",
     alt: "Coffret cadeau Shea's avec les trois formats",
     badge: "Coffret Cadeau",
     ingredients: "100% Beurre de Karité brut (Butyrospermum Parkii Butter), non raffiné, grade A.",
@@ -55,7 +55,7 @@ export const temoignages = [
     note: 5,
     texte: "Enfin un vrai beurre de karité comme celui de ma grand-mère au Burkina ! L'odeur naturelle de noisette me rappelle mon enfance.",
     date: "Novembre 2024",
-    image: "/assets/images/testimonial-1.jpeg" // Using existing image
+    image: "assets/images/testimonial-1.jpeg" // Using existing image
   },
   {
     id: 2,
@@ -64,7 +64,7 @@ export const temoignages = [
     note: 5,
     texte: "J'utilise le beurre fouetté quotidiennement. Il pénètre rapidement sans laisser de film gras. Parfait sous le maquillage.",
     date: "Octobre 2024",
-    image: "/assets/images/testimonial-2.jpeg" // Using existing image
+    image: "assets/images/testimonial-2.jpeg" // Using existing image
   },
   {
     id: 3,
@@ -73,7 +73,7 @@ export const temoignages = [
     note: 5,
     texte: "À mon âge, la peau devient très sèche. Ce karité est un miracle. Il redonne vie à ma peau et mes cheveux gris brillent comme jamais.",
     date: "Septembre 2024",
-    image: "/assets/images/elderly.png" // The NEW elderly woman image
+    image: "assets/images/elderly.png" // The NEW elderly woman image
   },
   {
     id: 4,
@@ -82,7 +82,7 @@ export const temoignages = [
     note: 5,
     texte: "Mes cheveux crépus adorent ce karité ! J'ai enfin trouvé un produit 100% naturel qui définit mes boucles.",
     date: "Août 2024",
-    image: "/assets/images/testimonial-3.jpeg" // Using existing image
+    image: "assets/images/testimonial-3.jpeg" // Using existing image
   }
 ];
 
@@ -112,7 +112,7 @@ export const faqData = [
     reponse: "Nous pratiquons le commerce équitable : prix d'achat 40% au-dessus du marché, paiement à la commande, préfinancement des récoltes. 5% de nos bénéfices financent des projets locaux (scolarisation des filles, puits, centres de santé). Chaque pot indique le nom de la coopérative productrice."
   },
   {
-    question: "Livrez-vous en Afrique ?",
+    question: "Livrez-vous partout dans le monde ?",
     reponse: "Oui ! Nous livrons dans toute l'Afrique de l'Ouest (Burkina Faso, Côte d'Ivoire, Mali, Sénégal, Bénin, Togo) ainsi qu'en Europe. Les frais et délais varient selon la destination. Contactez-nous pour les autres pays africains."
   }
 ];

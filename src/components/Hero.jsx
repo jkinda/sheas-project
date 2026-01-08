@@ -12,7 +12,7 @@ const Hero = () => {
                 muted
                 playsInline
             >
-                <source src="/assets/videos/hero.mp4" type="video/mp4" />
+                <source src="assets/videos/hero.mp4" type="video/mp4" />
                 Votre navigateur ne supporte pas la vidéo.
             </video>
 

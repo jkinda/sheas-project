@@ -41,7 +41,6 @@ const OurStory = () => (
                             <p className="text-sm text-gray-600">Pur & Naturel</p>
                         </div>
                         <div className="text-center p-4 bg-white rounded-xl shadow-sm">
-                            <p className="text-3xl font-bold text-amber-600">3000+</p>
                             <p className="text-sm text-gray-600">Familles satisfaites</p>
                         </div>
                         <div className="text-center p-4 bg-white rounded-xl shadow-sm">
@@ -54,7 +53,7 @@ const OurStory = () => (
                 <div className="relative">
                     <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
                         <img
-                            src="/assets/images/story.png"
+                            src="assets/images/story.png"
                             alt="Maman africaine prenant soin de son bébé"
                             className="w-full h-full object-cover"
                             loading="lazy"

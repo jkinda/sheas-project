@@ -63,13 +63,13 @@ const ProductList = ({ onAjouter, produitsAjoutes, onQuickView }) => (
                     className="rounded-2xl shadow-lg overflow-hidden relative group h-full min-h-[400px]"
                 >
                     <img
-                        src="/assets/images/promo-health.png"
+                        src="assets/images/promo-health.png"
                         alt="Bien-être naturel"
                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex flex-col justify-end p-8 text-white">
                         <h3 className="text-2xl font-serif font-bold mb-3 leading-tight">
-                            Votre santé, votre meilleur atout
+                            Briller de milles feux
                         </h3>
                         <p className="text-amber-100 font-medium text-lg">
                             Investissez en vous dès aujourd'hui.

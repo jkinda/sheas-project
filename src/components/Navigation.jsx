@@ -15,7 +15,6 @@ const Navigation = ({ panier, toggleMenu, menuOuvert, onOpenCart }) => {
         { href: "#produits", label: "Nos Produits" },
         { href: "#histoire", label: "Notre Histoire" },
         { href: "#bienfaits", label: "Bienfaits" },
-        { href: "#temoignages", label: "Avis" },
         { href: "#faq", label: "FAQ" },
         { href: "#contact", label: "Contact" }
     ];
@@ -35,7 +34,7 @@ const Navigation = ({ panier, toggleMenu, menuOuvert, onOpenCart }) => {
             >
                 <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
                     <a href="#" className="font-serif text-xl font-bold flex items-center gap-2">
-                        <img src="/assets/images/logo.png" alt="Shea's" className="h-16 w-auto transition-all duration-300 transform hover:scale-105" />
+                        <img src="assets/images/logo.png" alt="Shea's" className="h-16 w-auto transition-all duration-300 transform hover:scale-105" />
                     </a>
 
                     {/* Menu desktop */}

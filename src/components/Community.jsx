@@ -3,7 +3,7 @@ const Community = () => (
         <div className="max-w-7xl mx-auto">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[500px]">
                 <img
-                    src="/assets/images/family.png"
+                    src="assets/images/family.png"
                     alt="Famille heureuse utilisant les produits Shea's"
                     className="w-full h-full object-cover"
                 />

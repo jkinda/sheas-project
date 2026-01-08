@@ -5,7 +5,7 @@ import ProductList from './components/ProductList';
 import OurStory from './components/OurStory';
 import Community from './components/Community';
 import Benefits from './components/Benefits';
-import Testimonials from './components/Testimonials';
+// import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
@@ -91,7 +91,7 @@ export default function App() {
         <OurStory />
         <Community />
         <Benefits />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <FAQ />
         <ContactForm />
       </main>
