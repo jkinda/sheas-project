@@ -8,17 +8,18 @@ export default {
     extend: {
       colors: {
         // Palette personnalisée Karité du Faso
-        karite: {
-          50: '#fffbeb',
-          100: '#fef3c7',
-          200: '#fde68a',
-          300: '#fcd34d',
-          400: '#fbbf24',
-          500: '#f59e0b',
-          600: '#d97706',
-          700: '#b45309',
-          800: '#92400e',
-          900: '#78350f',
+        amber: {
+          50: '#fffbf0',
+          100: '#f9f2d6',
+          200: '#f0dfa8',
+          300: '#e6c770',
+          400: '#dea838', // Rich Shea Gold
+          500: '#d97706', // Deep Gold / Amber (Standard Tailwind Amber-600 moved to 500 for richness?) No, let's use custom.
+          // Let's try a custom Rich Gold palette
+          600: '#c51b54', // Vibrant Bordeaux/Red for hover
+          700: '#a31545', // Lighter Bordeaux
+          800: '#800020', // Bordeaux Red / Maroon
+          900: '#500014', // Dark Bordeaux
         }
       },
       fontFamily: {

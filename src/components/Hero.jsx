@@ -27,7 +27,7 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
-                    <p className="text-amber-200 text-lg md:text-xl uppercase tracking-[0.2em] mb-4">
+                    <p className="text-white text-lg md:text-xl uppercase tracking-[0.2em] mb-4">
                         Direct du Burkina Faso
                     </p>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-white mb-6 leading-tight drop-shadow-lg">
